@@ -8,3 +8,15 @@
 index:
     path: /
     controller: App\Controller\DefaultController::index
+    
+form_loisir:
+    path: /loisir/create
+    controller: App\Controller\LoisirController::create
+
+form_loisir_edit:
+    path: /loisir/edit/{id}
+    controller: App\Controller\LoisirController::edit
+
+valid_loisir:
+    path: /loisir/valid
+    controller: App\Controller\LoisirController::valid

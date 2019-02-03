@@ -14,6 +14,7 @@ class DefaultController extends AbstractController
 
         return $this->render('index.html.twig', [
             'number' => $number,
+            'name' => 'Florent',
             ]
         );
     }
